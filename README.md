@@ -1,6 +1,6 @@
 # sketchtrial
 
-To bypass Sketch trial verification process you just need to spoof a couple of NSDate calls when the app starts. This repository contains a shared library code that can be inserted (with `DYLD_INSERT_LIBRARIES`) to the Sketch process that spoofs the right `gettimeofday` calls.
+To bypass Sketch trial verification process you just need to spoof a couple of NSDate calls when the app starts. This repository contains a shared library code that can be inserted (using `DYLD_INSERT_LIBRARIES`) to the Sketch process that spoofs the right `gettimeofday` calls.
 
 ## Building
 ```
