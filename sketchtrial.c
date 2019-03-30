@@ -9,7 +9,7 @@
 #include <pthread.h>
 
 static pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
-static int calls_left = 3; // actually 2 seems to be enough. use 3 just for safety
+static int calls_left = 9;
 static bool done = false;
 static char buf[32];
 static long days = -5000;
