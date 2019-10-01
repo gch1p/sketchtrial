@@ -17,7 +17,7 @@ You can use `sketch.sh`, it's a wrapper script that sets necessary environment v
 *  Open Automator (use Finder)
 *  Select New => Application (Set the name for the app, in my case "Sketchv2"
 *  Under Actions Search Bar, select Run AppleScript and drag to the right panel (Or double click)
-*  Add this to the text area
+*  Add this to the text area (Remove any preview content inside the text area)(Remember to replace PATHTOTHISREPO with the full path where is this repo is in your mac)
 
   ```do shell script "sudo /PATHTOTHISREPO/sketchtrial/sketch.sh" with administrator privileges```
 *  You can press the play button to test.
