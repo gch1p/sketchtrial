@@ -2,7 +2,9 @@
 
 This is a shared library that spoofs some ObjC method calls to disable Sketch license verification.
 
-Tested on Sketch 55.2.
+Tested on Sketch 58.
+
+Make sure to disable SIP (`csrutil disable` from Recovery), for more information see below.
 
 ## Building
 ```
